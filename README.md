@@ -1,3 +1,5 @@
+[![Test Multiple Python Versions](https://github.com/mussaeb/devops-task/actions/workflows/main.yml/badge.svg)](https://github.com/mussaeb/devops-task/actions/workflows/main.yml)
+
 # Formlabs DevOps home assignment
 
 This repository contains a home assignment code for DevOps applicants for Formlabs.
