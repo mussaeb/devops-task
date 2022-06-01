@@ -11,6 +11,6 @@ lint:
 	pylint --disable=R,C helloapp 
 
 format:
-	black *.py
+	black helloapp
 	
 all: build test lint format run
