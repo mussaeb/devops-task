@@ -6,6 +6,11 @@ test:
 
 run: 
 	bash run.sh
+	
+lint:
+	pylint --disable=R,C helloapp 
 
-all: 
-	build test run 
+format:
+	black *.py
+	
+all: build test lint format run
