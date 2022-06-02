@@ -13,4 +13,4 @@ deploy:
 	docker build -t devops_task_formlabs .
 	docker tag devops_task_formlabs:latest 562368152634.dkr.ecr.us-east-1.amazonaws.com/devops_task_formlabs:latest
 	docker push 562368152634.dkr.ecr.us-east-1.amazonaws.com/devops_task_formlabs:latest
-all: build test format deploy
+all: build test deploy
