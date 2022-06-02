@@ -1,5 +1,7 @@
 [![Test Multiple Python Versions](https://github.com/mussaeb/devops-task/actions/workflows/main.yml/badge.svg)](https://github.com/mussaeb/devops-task/actions/workflows/main.yml)
 
+[![AWS Code Build](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiRmtzODZ6YTlGM2szb1ljeWxZUW0wRHF0V0FZVDBRa0Q0VG9WcThlUngrNEorTENERWMwVSt4bVZmbHdYQ3JXN1g4cUZIRUMwZURzb1Y4UjdRV0VTYnZJPSIsIml2UGFyYW1ldGVyU3BlYyI6InA5UTVUSndXb1lGNUFWOGMiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
+
 # Formlabs DevOps home assignment
 
 This repository contains a home assignment code for DevOps applicants for Formlabs.
