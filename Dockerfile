@@ -5,12 +5,19 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 COPY ./helloapp ./helloapp 
-CMD ["python", "./helloapp/app.py"]
+COPY . run.sh /app/
+COPY . test.sh /app/
+COPY . build.sh /app/
+COPY . Makefile /app/
 EXPOSE 80
+CMD ["bash","./run.sh"]
+
+#CMD ["python", "./helloapp/app.py"]
+
 
 
 #RUN mkdir -p /app
-#COPY . main.py /app/
+#COPY . app.py /app/
 #EXPOSE 8080
 #CMD . app.py
 #ENTRYPOINT [ "python" ]
