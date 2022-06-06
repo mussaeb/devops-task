@@ -11,6 +11,7 @@ COPY . build.sh /app/
 COPY . Makefile /app/
 EXPOSE 80
 CMD ["bash","./run.sh"]
+ENTRYPOINT ["python"]
 
 #CMD ["python", "./helloapp/app.py"]
 
